@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical">
+
+
+    <!--colocação-->
+
+    <TextView android:id="@+id/colocacao"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#999999"/>
+
+    <!--nome do time-->
+
+    <TextView android:id="@+id/nome_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textColor="#999999"/>
+
+    <!--pontos-->
+
+    <TextView android:id="@+id/pontos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#999999"/>
+
+    <!--jogos-->
+
+    <TextView android:id="@+id/jogos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#999999"/>
+
+    <!--vitorias
+
+    <TextView android:id="@+id/vitorias"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#999999"/>
+
+
+    <!-empates
+
+    <TextView android:id="@+id/empates"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#999999"/>
+
+    <!-derrotas
+
+    <TextView android:id="@+id/derrotas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#999999"/>
+
+    -->
+
+</LinearLayout>
